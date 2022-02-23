@@ -150,15 +150,15 @@ RectTransform:
   m_GameObject: {fileID: 32561563}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.37699997, y: 0.37699997, z: 0.37699997}
   m_Children: []
   m_Father: {fileID: 2049311698}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -458, y: -464}
-  m_SizeDelta: {x: 401.6799, y: 177.7526}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -178.06, y: -198}
+  m_SizeDelta: {x: 401.6799, y: -272.2474}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &32561565
 MonoBehaviour:
@@ -293,6 +293,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerButton (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5325617159547283890, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
+      propertyPath: m_fontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5325617159547283890, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 8350392256751105797, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
       propertyPath: m_Transition
       value: 2
@@ -402,7 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -489,8 +497,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -720.4763, y: 489}
-  m_SizeDelta: {x: 286.1616, y: 64.4846}
+  m_AnchoredPosition: {x: -269.28, y: 193}
+  m_SizeDelta: {x: 145.8226, y: 40.3034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &475312263
 MonoBehaviour:
@@ -541,8 +549,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -763,8 +771,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1188,8 +1196,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.8116, y: -190.8984}
-  m_SizeDelta: {x: 837.4055, y: 205.2125}
+  m_AnchoredPosition: {x: 0, y: -78}
+  m_SizeDelta: {x: 344.4901, y: 118.3096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &996772399
 MonoBehaviour:
@@ -1397,8 +1405,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 451}
-  m_SizeDelta: {x: 1021.0037, y: 117.3212}
+  m_AnchoredPosition: {x: 0, y: 176}
+  m_SizeDelta: {x: 321.2242, y: 115.7373}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1117707938
 MonoBehaviour:
@@ -1447,8 +1455,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1703,6 +1711,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerButton (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5325617159547283890, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
+      propertyPath: m_fontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5325617159547283890, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 8350392256751105797, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
       propertyPath: m_Transition
       value: 2
@@ -1817,7 +1833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -2000,8 +2016,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 820, y: 425}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 337, y: 173}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1431580401
 MonoBehaviour:
@@ -2183,8 +2199,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2249,8 +2265,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000022769, y: 118.69}
-  m_SizeDelta: {x: 1593.959, y: -237.3779}
+  m_AnchoredPosition: {x: 0, y: 62.461}
+  m_SizeDelta: {x: 515.3281, y: -124.9215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1676386376
 GameObject:
@@ -2278,7 +2294,7 @@ RectTransform:
   m_GameObject: {fileID: 1676386376}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.37699997, y: 0.37699997, z: 0.37699997}
   m_Children:
   - {fileID: 1509148334}
   - {fileID: 1894562485}
@@ -2288,7 +2304,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 153, y: -464}
+  m_AnchoredPosition: {x: 52.283, y: -198}
   m_SizeDelta: {x: 977.0265, y: 99.4331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1676386378
@@ -2473,6 +2489,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerButton (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5325617159547283890, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
+      propertyPath: m_fontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5325617159547283890, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 8350392256751105797, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
       propertyPath: m_Transition
       value: 2
@@ -2561,8 +2585,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: -168}
-  m_SizeDelta: {x: 1200, y: 450}
+  m_AnchoredPosition: {x: -0.0000095367, y: -77}
+  m_SizeDelta: {x: 437.8416, y: 178.0588}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1902049536
 MonoBehaviour:
@@ -2582,7 +2606,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: -20
+  m_Spacing: -5
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -2624,8 +2648,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 172}
-  m_SizeDelta: {x: 450, y: 50}
+  m_AnchoredPosition: {x: 3.0066, y: 66.005}
+  m_SizeDelta: {x: 184.05, y: 26.8073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1948093647
 MonoBehaviour:
@@ -2674,8 +2698,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2767,8 +2791,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05d182dfcf6b75544a189ba8d49d6048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToCompleteQuestion: 5
-  timeToShowCorrectAnswer: 1
+  timeToCompleteQuestion: 10
+  timeToShowCorrectAnswer: 3
   loadNextQuestion: 0
   fillFraction: 0
   isAnsweringQuestion: 0
@@ -2824,7 +2848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -3306,6 +3330,14 @@ PrefabInstance:
     - target: {fileID: 4003537406946037233, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
       propertyPath: m_Name
       value: AnswerButton (0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5325617159547283890, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
+      propertyPath: m_fontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5325617159547283890, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8350392256751105797, guid: 4eef91e8aed9c0e43bd3ab7c291f4991, type: 3}
       propertyPath: m_Transition
