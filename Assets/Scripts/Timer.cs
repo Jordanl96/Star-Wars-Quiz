@@ -7,16 +7,24 @@ public class Timer : MonoBehaviour
 {
     [SerializeField] float timeToCompleteQuestion = 30f;
     [SerializeField] float timeToShowCorrectAnswer = 10f;
-
+    StartScreen startScreen;
     public bool loadNextQuestion;
     public float fillFraction;
 
     public bool isAnsweringQuestion;
     float timerValue;
 
+    void Awake()
+    {
+        startScreen = FindObjectOfType<StartScreen>();
+    }
+
     void Update()
     {
-        UpdateTimer();
+        if(startScreen.hasStarted)
+        {
+            UpdateTimer();
+        }
     }
 
     public void CancelTimer()
